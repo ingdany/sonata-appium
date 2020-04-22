@@ -1,0 +1,7 @@
+DRIVER="Get Current Application"
+ACCEPT_CONTINUE="//*[contains(@resource-id,'com.android.chrome:id/terms_accept') and @text='Accept & continue']"
+NEXT="//*[contains(@resource-id,'com.android.chrome:id/next_button') and @text='Next']"
+POSITIVE="//*[contains(@resource-id,'com.android.chrome:id/positive_button')]"
+SEARCH_URL="//*[contains(@resource-id,'com.android.chrome:id/search_box_text') and @text='Search or type web address']"
+SITE_URL="https://sonataservices.com"
+SHOW_LINK="//android.widget.TextView[@text='sonataservices.com']"
