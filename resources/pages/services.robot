@@ -9,7 +9,8 @@ Resource        home.robot
 
 ***Keywords***
 Open Services Page
-    log to console  Open Services Page    
+    log to console  Open Services Page
+    sleep   5 
     Click Element   xpath=${SIDE_BAR}
     Click Element   xpath=${SERVICES_LINK}
     Swipe Down  ${FOOTER}

@@ -1,0 +1,1 @@
+SEND_RESUME_BUTTON= "//android.view.View[@text='SEND US YOUR RESUME']"

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200422 20:21:49.575" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200423 15:12:22.290" rpa="false">
 <suite id="s1" name="Test" source="C:\repository\robot-framework\appium\sonata\resources\test.robot">
 <test id="s1-t1" name="Run Mobile Portrait">
 <kw name="Close All Applications" library="AppiumLibrary" type="setup">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20200422 20:21:49.953" endtime="20200422 20:21:49.956"></status>
+<status status="PASS" starttime="20200423 15:12:22.758" endtime="20200423 15:12:22.763"></status>
 </kw>
 <kw name="Open Application" library="AppiumLibrary">
 <doc>Opens a new application to given Appium server.
@@ -23,7 +23,7 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>appActivity=${APP_ACTIVITY}</arg>
 <arg>useNewWDA=${USE_NEW_WDA}</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:21:49.956" endtime="20200422 20:21:53.525"></status>
+<status status="PASS" starttime="20200423 15:12:22.763" endtime="20200423 15:12:26.537"></status>
 </kw>
 <kw name="Configure Chrome">
 <kw name="Log To Console" library="BuiltIn">
@@ -31,54 +31,54 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>Configure Chrome Browser in Android and search Sonata Web Site</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:21:53.527" endtime="20200422 20:21:53.528"></status>
+<status status="PASS" starttime="20200423 15:12:26.537" endtime="20200423 15:12:26.538"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <doc>Waits until element specified with `locator` appears on current page.</doc>
 <arguments>
 <arg>xpath=${ACCEPT_CONTINUE}</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:21:53.528" endtime="20200422 20:21:54.248"></status>
+<status status="PASS" starttime="20200423 15:12:26.538" endtime="20200423 15:12:27.287"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${ACCEPT_CONTINUE}</arg>
 </arguments>
-<msg timestamp="20200422 20:21:54.256" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/terms_accept') and @text='Accept &amp; continue']'.</msg>
-<status status="PASS" starttime="20200422 20:21:54.248" endtime="20200422 20:21:54.608"></status>
+<msg timestamp="20200423 15:12:27.296" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/terms_accept') and @text='Accept &amp; continue']'.</msg>
+<status status="PASS" starttime="20200423 15:12:27.287" endtime="20200423 15:12:27.609"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <doc>Waits until element specified with `locator` appears on current page.</doc>
 <arguments>
 <arg>xpath=${NEXT}</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:21:54.609" endtime="20200422 20:21:55.975"></status>
+<status status="PASS" starttime="20200423 15:12:27.609" endtime="20200423 15:12:28.368"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${NEXT}</arg>
 </arguments>
-<msg timestamp="20200422 20:21:55.981" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/next_button') and @text='Next']'.</msg>
-<status status="PASS" starttime="20200422 20:21:55.976" endtime="20200422 20:21:56.194"></status>
+<msg timestamp="20200423 15:12:28.371" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/next_button') and @text='Next']'.</msg>
+<status status="PASS" starttime="20200423 15:12:28.368" endtime="20200423 15:12:28.608"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <doc>Waits until element specified with `locator` appears on current page.</doc>
 <arguments>
 <arg>xpath=${POSITIVE}</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:21:56.195" endtime="20200422 20:21:56.821"></status>
+<status status="PASS" starttime="20200423 15:12:28.609" endtime="20200423 15:12:29.232"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${POSITIVE}</arg>
 </arguments>
-<msg timestamp="20200422 20:21:56.828" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/positive_button')]'.</msg>
-<status status="PASS" starttime="20200422 20:21:56.821" endtime="20200422 20:21:57.167"></status>
+<msg timestamp="20200423 15:12:29.237" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/positive_button')]'.</msg>
+<status status="PASS" starttime="20200423 15:12:29.233" endtime="20200423 15:12:29.625"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:21:53.526" endtime="20200422 20:21:57.167"></status>
+<status status="PASS" starttime="20200423 15:12:26.537" endtime="20200423 15:12:29.626"></status>
 </kw>
 <kw name="Open Home Page" library="home">
 <kw name="Log To Console" library="BuiltIn">
@@ -86,14 +86,14 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>Open Home Page</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:21:57.170" endtime="20200422 20:21:57.171"></status>
+<status status="PASS" starttime="20200423 15:12:29.627" endtime="20200423 15:12:29.627"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <doc>Waits until element specified with `locator` appears on current page.</doc>
 <arguments>
 <arg>xpath=${SEARCH_URL}</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:21:57.171" endtime="20200422 20:21:59.735"></status>
+<status status="PASS" starttime="20200423 15:12:29.628" endtime="20200423 15:12:32.195"></status>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -101,23 +101,23 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>xpath=${SEARCH_URL}</arg>
 <arg>${SITE_URL}</arg>
 </arguments>
-<msg timestamp="20200422 20:21:59.742" level="INFO">Typing text 'https://sonataservices.com' into text field 'xpath=//*[contains(@resource-id,'com.android.chrome:id/search_box_text') and @text='Search or type web address']'</msg>
-<status status="PASS" starttime="20200422 20:21:59.735" endtime="20200422 20:22:09.672"></status>
+<msg timestamp="20200423 15:12:32.206" level="INFO">Typing text 'https://sonataservices.com' into text field 'xpath=//*[contains(@resource-id,'com.android.chrome:id/search_box_text') and @text='Search or type web address']'</msg>
+<status status="PASS" starttime="20200423 15:12:32.196" endtime="20200423 15:12:55.599"></status>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <doc>Sends a press of keycode to the device.</doc>
 <arguments>
 <arg>66</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:09.673" endtime="20200422 20:22:10.884"></status>
+<status status="PASS" starttime="20200423 15:12:55.600" endtime="20200423 15:12:56.329"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>30</arg>
 </arguments>
-<msg timestamp="20200422 20:22:40.886" level="INFO">Slept 30 seconds</msg>
-<status status="PASS" starttime="20200422 20:22:10.885" endtime="20200422 20:22:40.886"></status>
+<msg timestamp="20200423 15:13:26.331" level="INFO">Slept 30 seconds</msg>
+<status status="PASS" starttime="20200423 15:12:56.329" endtime="20200423 15:13:26.332"></status>
 </kw>
 <kw name="Run Keyword And Return Status" library="BuiltIn">
 <doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
@@ -133,10 +133,10 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>${ACCEPT_COOKIES}</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:40.887" endtime="20200422 20:22:41.075"></status>
+<status status="PASS" starttime="20200423 15:13:26.335" endtime="20200423 15:13:26.540"></status>
 </kw>
-<msg timestamp="20200422 20:22:41.076" level="INFO">${IS_ACCEPT_COOKIES} = True</msg>
-<status status="PASS" starttime="20200422 20:22:40.886" endtime="20200422 20:22:41.076"></status>
+<msg timestamp="20200423 15:13:26.540" level="INFO">${IS_ACCEPT_COOKIES} = True</msg>
+<status status="PASS" starttime="20200423 15:13:26.333" endtime="20200423 15:13:26.541"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -150,10 +150,10 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>xpath=${ACCEPT_COOKIES}</arg>
 </arguments>
-<msg timestamp="20200422 20:22:41.082" level="INFO">Clicking element 'xpath=//android.widget.Button[@text='ACCEPT']'.</msg>
-<status status="PASS" starttime="20200422 20:22:41.077" endtime="20200422 20:22:41.409"></status>
+<msg timestamp="20200423 15:13:26.551" level="INFO">Clicking element 'xpath=//android.widget.Button[@text='ACCEPT']'.</msg>
+<status status="PASS" starttime="20200423 15:13:26.542" endtime="20200423 15:13:26.871"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:41.076" endtime="20200422 20:22:41.409"></status>
+<status status="PASS" starttime="20200423 15:13:26.541" endtime="20200423 15:13:26.871"></status>
 </kw>
 <kw name="Swipe Down" library="home">
 <arguments>
@@ -166,17 +166,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:41.410" endtime="20200422 20:22:42.517"></status>
+<status status="PASS" starttime="20200423 15:13:26.875" endtime="20200423 15:13:28.026"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:43.018" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:42.517" endtime="20200422 20:22:43.018"></status>
+<msg timestamp="20200423 15:13:28.529" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:28.027" endtime="20200423 15:13:28.529"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:41.410" endtime="20200422 20:22:43.018"></status>
+<status status="PASS" starttime="20200423 15:13:26.874" endtime="20200423 15:13:28.530"></status>
 </kw>
 <kw name="${i} = 1" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -184,17 +184,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:43.018" endtime="20200422 20:22:43.824"></status>
+<status status="PASS" starttime="20200423 15:13:28.531" endtime="20200423 15:13:29.365"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:44.327" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:43.825" endtime="20200422 20:22:44.327"></status>
+<msg timestamp="20200423 15:13:29.865" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:29.365" endtime="20200423 15:13:29.865"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:43.018" endtime="20200422 20:22:44.327"></status>
+<status status="PASS" starttime="20200423 15:13:28.531" endtime="20200423 15:13:29.865"></status>
 </kw>
 <kw name="${i} = 2" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -202,17 +202,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:44.327" endtime="20200422 20:22:45.150"></status>
+<status status="PASS" starttime="20200423 15:13:29.865" endtime="20200423 15:13:30.111"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:45.651" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:45.151" endtime="20200422 20:22:45.651"></status>
+<msg timestamp="20200423 15:13:30.611" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:30.111" endtime="20200423 15:13:30.611"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:44.327" endtime="20200422 20:22:45.651"></status>
+<status status="PASS" starttime="20200423 15:13:29.865" endtime="20200423 15:13:30.611"></status>
 </kw>
 <kw name="${i} = 3" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -220,17 +220,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:45.652" endtime="20200422 20:22:46.703"></status>
+<status status="PASS" starttime="20200423 15:13:30.612" endtime="20200423 15:13:30.914"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:47.205" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:46.704" endtime="20200422 20:22:47.205"></status>
+<msg timestamp="20200423 15:13:31.416" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:30.915" endtime="20200423 15:13:31.416"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:45.651" endtime="20200422 20:22:47.205"></status>
+<status status="PASS" starttime="20200423 15:13:30.611" endtime="20200423 15:13:31.416"></status>
 </kw>
 <kw name="${i} = 4" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -238,17 +238,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:47.206" endtime="20200422 20:22:47.473"></status>
+<status status="PASS" starttime="20200423 15:13:31.417" endtime="20200423 15:13:31.670"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:47.974" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:47.473" endtime="20200422 20:22:47.974"></status>
+<msg timestamp="20200423 15:13:32.172" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:31.671" endtime="20200423 15:13:32.172"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:47.206" endtime="20200422 20:22:47.974"></status>
+<status status="PASS" starttime="20200423 15:13:31.417" endtime="20200423 15:13:32.172"></status>
 </kw>
 <kw name="${i} = 5" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -256,17 +256,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:47.975" endtime="20200422 20:22:48.256"></status>
+<status status="PASS" starttime="20200423 15:13:32.173" endtime="20200423 15:13:32.510"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:48.759" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:48.257" endtime="20200422 20:22:48.759"></status>
+<msg timestamp="20200423 15:13:33.013" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:32.511" endtime="20200423 15:13:33.013"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:47.974" endtime="20200422 20:22:48.759"></status>
+<status status="PASS" starttime="20200423 15:13:32.172" endtime="20200423 15:13:33.013"></status>
 </kw>
 <kw name="${i} = 6" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -274,17 +274,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:48.760" endtime="20200422 20:22:49.019"></status>
+<status status="PASS" starttime="20200423 15:13:33.013" endtime="20200423 15:13:33.276"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:49.521" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:49.020" endtime="20200422 20:22:49.521"></status>
+<msg timestamp="20200423 15:13:33.779" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:33.277" endtime="20200423 15:13:33.779"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:48.760" endtime="20200422 20:22:49.521"></status>
+<status status="PASS" starttime="20200423 15:13:33.013" endtime="20200423 15:13:33.779"></status>
 </kw>
 <kw name="${i} = 7" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -292,17 +292,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:49.521" endtime="20200422 20:22:49.816"></status>
+<status status="PASS" starttime="20200423 15:13:33.779" endtime="20200423 15:13:34.581"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:50.317" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:49.817" endtime="20200422 20:22:50.317"></status>
+<msg timestamp="20200423 15:13:35.082" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:34.581" endtime="20200423 15:13:35.082"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:49.521" endtime="20200422 20:22:50.317"></status>
+<status status="PASS" starttime="20200423 15:13:33.779" endtime="20200423 15:13:35.082"></status>
 </kw>
 <kw name="${i} = 8" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -310,17 +310,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:50.318" endtime="20200422 20:22:50.607"></status>
+<status status="PASS" starttime="20200423 15:13:35.083" endtime="20200423 15:13:36.021"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:51.111" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:50.608" endtime="20200422 20:22:51.111"></status>
+<msg timestamp="20200423 15:13:36.523" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:36.022" endtime="20200423 15:13:36.523"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:50.317" endtime="20200422 20:22:51.111"></status>
+<status status="PASS" starttime="20200423 15:13:35.082" endtime="20200423 15:13:36.523"></status>
 </kw>
 <kw name="${i} = 9" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -328,17 +328,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:51.112" endtime="20200422 20:22:51.417"></status>
+<status status="PASS" starttime="20200423 15:13:36.523" endtime="20200423 15:13:36.819"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:51.918" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:51.417" endtime="20200422 20:22:51.918"></status>
+<msg timestamp="20200423 15:13:37.322" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:36.819" endtime="20200423 15:13:37.322"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:51.111" endtime="20200422 20:22:51.918"></status>
+<status status="PASS" starttime="20200423 15:13:36.523" endtime="20200423 15:13:37.323"></status>
 </kw>
 <kw name="${i} = 10" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -346,17 +346,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:51.919" endtime="20200422 20:22:52.205"></status>
+<status status="PASS" starttime="20200423 15:13:37.324" endtime="20200423 15:13:37.616"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:52.708" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:52.205" endtime="20200422 20:22:52.708"></status>
+<msg timestamp="20200423 15:13:38.117" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:37.616" endtime="20200423 15:13:38.117"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:51.918" endtime="20200422 20:22:52.708"></status>
+<status status="PASS" starttime="20200423 15:13:37.323" endtime="20200423 15:13:38.117"></status>
 </kw>
 <kw name="${i} = 11" type="foritem">
 <kw name="Press Keycode" library="AppiumLibrary">
@@ -364,330 +364,104 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>93</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:52.709" endtime="20200422 20:22:52.971"></status>
+<status status="PASS" starttime="20200423 15:13:38.118" endtime="20200423 15:13:38.402"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>0.5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:53.472" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:52.971" endtime="20200422 20:22:53.472"></status>
+<msg timestamp="20200423 15:13:38.904" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200423 15:13:38.403" endtime="20200423 15:13:38.904"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:52.708" endtime="20200422 20:22:53.472"></status>
+<status status="PASS" starttime="20200423 15:13:38.118" endtime="20200423 15:13:38.904"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:41.410" endtime="20200422 20:22:53.472"></status>
+<status status="PASS" starttime="20200423 15:13:26.874" endtime="20200423 15:13:38.904"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:22:41.410" endtime="20200422 20:22:53.473"></status>
+<status status="PASS" starttime="20200423 15:13:26.872" endtime="20200423 15:13:38.905"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>End Home Page</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:53.473" endtime="20200422 20:22:53.475"></status>
+<status status="PASS" starttime="20200423 15:13:38.905" endtime="20200423 15:13:38.906"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:21:57.169" endtime="20200422 20:22:53.475"></status>
+<status status="PASS" starttime="20200423 15:12:29.626" endtime="20200423 15:13:38.907"></status>
 </kw>
-<kw name="Open Services Page" library="services">
+<kw name="Open Careers Page" library="careers">
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>Open Services Page</arg>
+<arg>Open Careers Page</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:22:53.478" endtime="20200422 20:22:53.479"></status>
+<status status="PASS" starttime="20200423 15:13:38.909" endtime="20200423 15:13:38.909"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200423 15:13:43.912" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200423 15:13:38.910" endtime="20200423 15:13:43.912"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${SIDE_BAR}</arg>
 </arguments>
-<msg timestamp="20200422 20:22:53.490" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[1]'.</msg>
-<status status="PASS" starttime="20200422 20:22:53.480" endtime="20200422 20:22:54.834"></status>
+<msg timestamp="20200423 15:13:43.921" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[1]'.</msg>
+<status status="PASS" starttime="20200423 15:13:43.913" endtime="20200423 15:13:44.313"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
-<arg>xpath=${SERVICES_LINK}</arg>
+<arg>xpath=${CAREERS_LINK}</arg>
 </arguments>
-<msg timestamp="20200422 20:22:54.839" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.widget.ListView/android.view.View[2]'.</msg>
-<status status="PASS" starttime="20200422 20:22:54.835" endtime="20200422 20:22:56.178"></status>
-</kw>
-<kw name="Swipe Down" library="home">
-<arguments>
-<arg>${FOOTER}</arg>
-</arguments>
-<kw name="${i} IN RANGE [ 12 ]" type="for">
-<kw name="${i} = 0" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:22:56.181" endtime="20200422 20:22:58.361"></status>
+<msg timestamp="20200423 15:13:44.328" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.widget.ListView/android.view.View[4]'.</msg>
+<status status="PASS" starttime="20200423 15:13:44.314" endtime="20200423 15:13:45.621"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>0.5</arg>
+<arg>5</arg>
 </arguments>
-<msg timestamp="20200422 20:22:58.864" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:22:58.361" endtime="20200422 20:22:58.865"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:22:56.180" endtime="20200422 20:22:58.865"></status>
-</kw>
-<kw name="${i} = 1" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:22:58.865" endtime="20200422 20:23:00.207"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:00.709" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:00.207" endtime="20200422 20:23:00.709"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:22:58.865" endtime="20200422 20:23:00.709"></status>
-</kw>
-<kw name="${i} = 2" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:00.709" endtime="20200422 20:23:00.744"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:01.246" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:00.744" endtime="20200422 20:23:01.246"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:00.709" endtime="20200422 20:23:01.246"></status>
-</kw>
-<kw name="${i} = 3" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:01.246" endtime="20200422 20:23:01.285"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:01.787" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:01.285" endtime="20200422 20:23:01.787"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:01.246" endtime="20200422 20:23:01.787"></status>
-</kw>
-<kw name="${i} = 4" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:01.788" endtime="20200422 20:23:01.816"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:02.319" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:01.817" endtime="20200422 20:23:02.319"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:01.787" endtime="20200422 20:23:02.320"></status>
-</kw>
-<kw name="${i} = 5" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:02.321" endtime="20200422 20:23:02.354"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:02.854" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:02.354" endtime="20200422 20:23:02.854"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:02.320" endtime="20200422 20:23:02.854"></status>
-</kw>
-<kw name="${i} = 6" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:02.855" endtime="20200422 20:23:02.904"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:03.406" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:02.905" endtime="20200422 20:23:03.406"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:02.855" endtime="20200422 20:23:03.406"></status>
-</kw>
-<kw name="${i} = 7" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:03.407" endtime="20200422 20:23:03.444"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:03.947" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:03.445" endtime="20200422 20:23:03.947"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:03.407" endtime="20200422 20:23:03.947"></status>
-</kw>
-<kw name="${i} = 8" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:03.948" endtime="20200422 20:23:03.987"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:04.490" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:03.988" endtime="20200422 20:23:04.490"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:03.947" endtime="20200422 20:23:04.491"></status>
-</kw>
-<kw name="${i} = 9" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:04.492" endtime="20200422 20:23:04.521"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:05.024" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:04.521" endtime="20200422 20:23:05.024"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:04.491" endtime="20200422 20:23:05.024"></status>
-</kw>
-<kw name="${i} = 10" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:05.025" endtime="20200422 20:23:05.067"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:05.569" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:05.067" endtime="20200422 20:23:05.569"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:05.025" endtime="20200422 20:23:05.569"></status>
-</kw>
-<kw name="${i} = 11" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:05.570" endtime="20200422 20:23:05.613"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200422 20:23:06.116" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200422 20:23:05.614" endtime="20200422 20:23:06.116"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:23:05.569" endtime="20200422 20:23:06.116"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:22:56.180" endtime="20200422 20:23:06.116"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:22:56.179" endtime="20200422 20:23:06.117"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>End Services Page</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:06.117" endtime="20200422 20:23:06.118"></status>
-</kw>
-<status status="PASS" starttime="20200422 20:22:53.477" endtime="20200422 20:23:06.119"></status>
-</kw>
-<kw name="Open Success Stories Page" library="success_stories">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>Open Success Stories Page</arg>
-</arguments>
-<status status="PASS" starttime="20200422 20:23:06.121" endtime="20200422 20:23:06.122"></status>
+<msg timestamp="20200423 15:13:50.623" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200423 15:13:45.621" endtime="20200423 15:13:50.623"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
-<arg>xpath=${SIDE_BAR}</arg>
+<arg>xpath=${SEND_RESUME_BUTTON}</arg>
 </arguments>
-<msg timestamp="20200422 20:23:06.130" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[1]'.</msg>
-<status status="PASS" starttime="20200422 20:23:06.122" endtime="20200422 20:23:06.439"></status>
+<msg timestamp="20200423 15:13:50.631" level="INFO">Clicking element 'xpath=//android.view.View[@text='SEND US YOUR RESUME']'.</msg>
+<status status="PASS" starttime="20200423 15:13:50.624" endtime="20200423 15:13:50.981"></status>
 </kw>
-<kw name="Click Element" library="AppiumLibrary">
-<doc>Click element identified by `locator`.</doc>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>xpath=${SUCCESS_STORIES_LINK}</arg>
+<arg>30</arg>
 </arguments>
-<msg timestamp="20200422 20:23:06.443" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.widget.ListView/android.view.View[3]'.</msg>
-<status status="PASS" starttime="20200422 20:23:06.439" endtime="20200422 20:23:07.767"></status>
+<msg timestamp="20200423 15:14:20.984" level="INFO">Slept 30 seconds</msg>
+<status status="PASS" starttime="20200423 15:13:50.981" endtime="20200423 15:14:20.984"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>End Success Stories Page</arg>
+<arg>End Careers Page</arg>
 </arguments>
-<status status="PASS" starttime="20200422 20:23:07.767" endtime="20200422 20:23:07.770"></status>
+<status status="PASS" starttime="20200423 15:14:20.985" endtime="20200423 15:14:20.986"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:23:06.120" endtime="20200422 20:23:07.770"></status>
+<status status="PASS" starttime="20200423 15:13:38.908" endtime="20200423 15:14:20.986"></status>
 </kw>
 <kw name="Close All Applications" library="AppiumLibrary" type="teardown">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20200422 20:23:07.771" endtime="20200422 20:23:09.032"></status>
+<status status="PASS" starttime="20200423 15:14:20.987" endtime="20200423 15:14:22.200"></status>
 </kw>
-<status status="PASS" starttime="20200422 20:21:49.952" endtime="20200422 20:23:09.032" critical="yes"></status>
+<status status="PASS" starttime="20200423 15:12:22.757" endtime="20200423 15:14:22.200" critical="yes"></status>
 </test>
 <doc>Configure Chrome Browser in Android and open all Keywords</doc>
-<status status="PASS" starttime="20200422 20:21:49.581" endtime="20200422 20:23:09.033"></status>
+<status status="PASS" starttime="20200423 15:12:22.296" endtime="20200423 15:14:22.201"></status>
 </suite>
 <statistics>
 <total>
