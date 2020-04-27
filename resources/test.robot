@@ -16,6 +16,7 @@ Run Mobile Portrait
     Open Application    ${REMOTE_URL}   platformName=${PLATFORM_NAME}   platformVersion=${PLATFORM_VERSION}     deviceName=${DEVICE_NAME}   automationName=${AUTOMATION_NAME}   appPackage=${APP_PACKAGE}   appActivity=${APP_ACTIVITY}     useNewWDA=${USE_NEW_WDA}
     Configure Chrome
     Open Home Page
+    #Slide Home Page
     #Open Services Page
     #Open Success Stories Page 
     Open Careers Page 

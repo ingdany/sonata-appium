@@ -16,6 +16,9 @@ Open Home Page
     sleep   30    
     ${IS_ACCEPT_COOKIES}    Run Keyword And Return Status    Wait Until Page Contains Element    ${ACCEPT_COOKIES}
     Run Keyword If    ${IS_ACCEPT_COOKIES}      click element   xpath=${ACCEPT_COOKIES}  
+    
+Slide Home Page
+    log to console  Slide over Home Page
     Swipe Down  ${ACCELERATE_GROWTH}
     log to console  End Home Page
     #Stop Screen Recording   filename=Home

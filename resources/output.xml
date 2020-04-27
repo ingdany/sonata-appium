@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200423 15:12:22.290" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200427 10:51:50.483" rpa="false">
 <suite id="s1" name="Test" source="C:\repository\robot-framework\appium\sonata\resources\test.robot">
 <test id="s1-t1" name="Run Mobile Portrait">
 <kw name="Close All Applications" library="AppiumLibrary" type="setup">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20200423 15:12:22.758" endtime="20200423 15:12:22.763"></status>
+<status status="PASS" starttime="20200427 10:51:51.021" endtime="20200427 10:51:51.024"></status>
 </kw>
 <kw name="Open Application" library="AppiumLibrary">
 <doc>Opens a new application to given Appium server.
@@ -23,7 +23,7 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>appActivity=${APP_ACTIVITY}</arg>
 <arg>useNewWDA=${USE_NEW_WDA}</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:12:22.763" endtime="20200423 15:12:26.537"></status>
+<status status="PASS" starttime="20200427 10:51:51.025" endtime="20200427 10:51:55.012"></status>
 </kw>
 <kw name="Configure Chrome">
 <kw name="Log To Console" library="BuiltIn">
@@ -31,54 +31,54 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>Configure Chrome Browser in Android and search Sonata Web Site</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:12:26.537" endtime="20200423 15:12:26.538"></status>
+<status status="PASS" starttime="20200427 10:51:55.014" endtime="20200427 10:51:55.014"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <doc>Waits until element specified with `locator` appears on current page.</doc>
 <arguments>
 <arg>xpath=${ACCEPT_CONTINUE}</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:12:26.538" endtime="20200423 15:12:27.287"></status>
+<status status="PASS" starttime="20200427 10:51:55.015" endtime="20200427 10:51:55.903"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${ACCEPT_CONTINUE}</arg>
 </arguments>
-<msg timestamp="20200423 15:12:27.296" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/terms_accept') and @text='Accept &amp; continue']'.</msg>
-<status status="PASS" starttime="20200423 15:12:27.287" endtime="20200423 15:12:27.609"></status>
+<msg timestamp="20200427 10:51:55.916" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/terms_accept') and @text='Accept &amp; continue']'.</msg>
+<status status="PASS" starttime="20200427 10:51:55.904" endtime="20200427 10:51:56.179"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <doc>Waits until element specified with `locator` appears on current page.</doc>
 <arguments>
 <arg>xpath=${NEXT}</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:12:27.609" endtime="20200423 15:12:28.368"></status>
+<status status="PASS" starttime="20200427 10:51:56.180" endtime="20200427 10:51:57.018"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${NEXT}</arg>
 </arguments>
-<msg timestamp="20200423 15:12:28.371" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/next_button') and @text='Next']'.</msg>
-<status status="PASS" starttime="20200423 15:12:28.368" endtime="20200423 15:12:28.608"></status>
+<msg timestamp="20200427 10:51:57.024" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/next_button') and @text='Next']'.</msg>
+<status status="PASS" starttime="20200427 10:51:57.019" endtime="20200427 10:51:57.256"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <doc>Waits until element specified with `locator` appears on current page.</doc>
 <arguments>
 <arg>xpath=${POSITIVE}</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:12:28.609" endtime="20200423 15:12:29.232"></status>
+<status status="PASS" starttime="20200427 10:51:57.256" endtime="20200427 10:51:57.878"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${POSITIVE}</arg>
 </arguments>
-<msg timestamp="20200423 15:12:29.237" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/positive_button')]'.</msg>
-<status status="PASS" starttime="20200423 15:12:29.233" endtime="20200423 15:12:29.625"></status>
+<msg timestamp="20200427 10:51:57.883" level="INFO">Clicking element 'xpath=//*[contains(@resource-id,'com.android.chrome:id/positive_button')]'.</msg>
+<status status="PASS" starttime="20200427 10:51:57.879" endtime="20200427 10:51:58.258"></status>
 </kw>
-<status status="PASS" starttime="20200423 15:12:26.537" endtime="20200423 15:12:29.626"></status>
+<status status="PASS" starttime="20200427 10:51:55.013" endtime="20200427 10:51:58.258"></status>
 </kw>
 <kw name="Open Home Page" library="home">
 <kw name="Log To Console" library="BuiltIn">
@@ -86,14 +86,14 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>Open Home Page</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:12:29.627" endtime="20200423 15:12:29.627"></status>
+<status status="PASS" starttime="20200427 10:51:58.259" endtime="20200427 10:51:58.260"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <doc>Waits until element specified with `locator` appears on current page.</doc>
 <arguments>
 <arg>xpath=${SEARCH_URL}</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:12:29.628" endtime="20200423 15:12:32.195"></status>
+<status status="PASS" starttime="20200427 10:51:58.260" endtime="20200427 10:52:02.094"></status>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -101,23 +101,23 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>xpath=${SEARCH_URL}</arg>
 <arg>${SITE_URL}</arg>
 </arguments>
-<msg timestamp="20200423 15:12:32.206" level="INFO">Typing text 'https://sonataservices.com' into text field 'xpath=//*[contains(@resource-id,'com.android.chrome:id/search_box_text') and @text='Search or type web address']'</msg>
-<status status="PASS" starttime="20200423 15:12:32.196" endtime="20200423 15:12:55.599"></status>
+<msg timestamp="20200427 10:52:02.101" level="INFO">Typing text 'https://sonataservices.com' into text field 'xpath=//*[contains(@resource-id,'com.android.chrome:id/search_box_text') and @text='Search or type web address']'</msg>
+<status status="PASS" starttime="20200427 10:52:02.094" endtime="20200427 10:52:18.813"></status>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <doc>Sends a press of keycode to the device.</doc>
 <arguments>
 <arg>66</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:12:55.600" endtime="20200423 15:12:56.329"></status>
+<status status="PASS" starttime="20200427 10:52:18.813" endtime="20200427 10:52:19.685"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>30</arg>
 </arguments>
-<msg timestamp="20200423 15:13:26.331" level="INFO">Slept 30 seconds</msg>
-<status status="PASS" starttime="20200423 15:12:56.329" endtime="20200423 15:13:26.332"></status>
+<msg timestamp="20200427 10:52:49.688" level="INFO">Slept 30 seconds</msg>
+<status status="PASS" starttime="20200427 10:52:19.685" endtime="20200427 10:52:49.688"></status>
 </kw>
 <kw name="Run Keyword And Return Status" library="BuiltIn">
 <doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
@@ -133,10 +133,10 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>${ACCEPT_COOKIES}</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:13:26.335" endtime="20200423 15:13:26.540"></status>
+<status status="PASS" starttime="20200427 10:52:49.689" endtime="20200427 10:52:49.873"></status>
 </kw>
-<msg timestamp="20200423 15:13:26.540" level="INFO">${IS_ACCEPT_COOKIES} = True</msg>
-<status status="PASS" starttime="20200423 15:13:26.333" endtime="20200423 15:13:26.541"></status>
+<msg timestamp="20200427 10:52:49.874" level="INFO">${IS_ACCEPT_COOKIES} = True</msg>
+<status status="PASS" starttime="20200427 10:52:49.688" endtime="20200427 10:52:49.874"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -150,244 +150,12 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>xpath=${ACCEPT_COOKIES}</arg>
 </arguments>
-<msg timestamp="20200423 15:13:26.551" level="INFO">Clicking element 'xpath=//android.widget.Button[@text='ACCEPT']'.</msg>
-<status status="PASS" starttime="20200423 15:13:26.542" endtime="20200423 15:13:26.871"></status>
+<msg timestamp="20200427 10:52:49.881" level="INFO">Clicking element 'xpath=//android.widget.Button[@text='ACCEPT']'.</msg>
+<status status="PASS" starttime="20200427 10:52:49.875" endtime="20200427 10:52:51.260"></status>
 </kw>
-<status status="PASS" starttime="20200423 15:13:26.541" endtime="20200423 15:13:26.871"></status>
+<status status="PASS" starttime="20200427 10:52:49.874" endtime="20200427 10:52:51.261"></status>
 </kw>
-<kw name="Swipe Down" library="home">
-<arguments>
-<arg>${ACCELERATE_GROWTH}</arg>
-</arguments>
-<kw name="${i} IN RANGE [ 12 ]" type="for">
-<kw name="${i} = 0" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:26.875" endtime="20200423 15:13:28.026"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:28.529" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:28.027" endtime="20200423 15:13:28.529"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:26.874" endtime="20200423 15:13:28.530"></status>
-</kw>
-<kw name="${i} = 1" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:28.531" endtime="20200423 15:13:29.365"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:29.865" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:29.365" endtime="20200423 15:13:29.865"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:28.531" endtime="20200423 15:13:29.865"></status>
-</kw>
-<kw name="${i} = 2" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:29.865" endtime="20200423 15:13:30.111"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:30.611" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:30.111" endtime="20200423 15:13:30.611"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:29.865" endtime="20200423 15:13:30.611"></status>
-</kw>
-<kw name="${i} = 3" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:30.612" endtime="20200423 15:13:30.914"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:31.416" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:30.915" endtime="20200423 15:13:31.416"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:30.611" endtime="20200423 15:13:31.416"></status>
-</kw>
-<kw name="${i} = 4" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:31.417" endtime="20200423 15:13:31.670"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:32.172" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:31.671" endtime="20200423 15:13:32.172"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:31.417" endtime="20200423 15:13:32.172"></status>
-</kw>
-<kw name="${i} = 5" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:32.173" endtime="20200423 15:13:32.510"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:33.013" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:32.511" endtime="20200423 15:13:33.013"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:32.172" endtime="20200423 15:13:33.013"></status>
-</kw>
-<kw name="${i} = 6" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:33.013" endtime="20200423 15:13:33.276"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:33.779" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:33.277" endtime="20200423 15:13:33.779"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:33.013" endtime="20200423 15:13:33.779"></status>
-</kw>
-<kw name="${i} = 7" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:33.779" endtime="20200423 15:13:34.581"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:35.082" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:34.581" endtime="20200423 15:13:35.082"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:33.779" endtime="20200423 15:13:35.082"></status>
-</kw>
-<kw name="${i} = 8" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:35.083" endtime="20200423 15:13:36.021"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:36.523" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:36.022" endtime="20200423 15:13:36.523"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:35.082" endtime="20200423 15:13:36.523"></status>
-</kw>
-<kw name="${i} = 9" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:36.523" endtime="20200423 15:13:36.819"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:37.322" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:36.819" endtime="20200423 15:13:37.322"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:36.523" endtime="20200423 15:13:37.323"></status>
-</kw>
-<kw name="${i} = 10" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:37.324" endtime="20200423 15:13:37.616"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:38.117" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:37.616" endtime="20200423 15:13:38.117"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:37.323" endtime="20200423 15:13:38.117"></status>
-</kw>
-<kw name="${i} = 11" type="foritem">
-<kw name="Press Keycode" library="AppiumLibrary">
-<doc>Sends a press of keycode to the device.</doc>
-<arguments>
-<arg>93</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:38.118" endtime="20200423 15:13:38.402"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>0.5</arg>
-</arguments>
-<msg timestamp="20200423 15:13:38.904" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200423 15:13:38.403" endtime="20200423 15:13:38.904"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:38.118" endtime="20200423 15:13:38.904"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:26.874" endtime="20200423 15:13:38.904"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:13:26.872" endtime="20200423 15:13:38.905"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>End Home Page</arg>
-</arguments>
-<status status="PASS" starttime="20200423 15:13:38.905" endtime="20200423 15:13:38.906"></status>
-</kw>
-<status status="PASS" starttime="20200423 15:12:29.626" endtime="20200423 15:13:38.907"></status>
+<status status="PASS" starttime="20200427 10:51:58.259" endtime="20200427 10:52:51.261"></status>
 </kw>
 <kw name="Open Careers Page" library="careers">
 <kw name="Log To Console" library="BuiltIn">
@@ -395,83 +163,187 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arguments>
 <arg>Open Careers Page</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:13:38.909" endtime="20200423 15:13:38.909"></status>
+<status status="PASS" starttime="20200427 10:52:51.265" endtime="20200427 10:52:51.266"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5</arg>
 </arguments>
-<msg timestamp="20200423 15:13:43.912" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20200423 15:13:38.910" endtime="20200423 15:13:43.912"></status>
+<msg timestamp="20200427 10:52:56.268" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200427 10:52:51.266" endtime="20200427 10:52:56.268"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${SIDE_BAR}</arg>
 </arguments>
-<msg timestamp="20200423 15:13:43.921" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[1]'.</msg>
-<status status="PASS" starttime="20200423 15:13:43.913" endtime="20200423 15:13:44.313"></status>
+<msg timestamp="20200427 10:52:56.279" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[1]'.</msg>
+<status status="PASS" starttime="20200427 10:52:56.269" endtime="20200427 10:52:56.624"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${CAREERS_LINK}</arg>
 </arguments>
-<msg timestamp="20200423 15:13:44.328" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.widget.ListView/android.view.View[4]'.</msg>
-<status status="PASS" starttime="20200423 15:13:44.314" endtime="20200423 15:13:45.621"></status>
+<msg timestamp="20200427 10:52:56.630" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[1]/android.widget.ListView/android.view.View[4]'.</msg>
+<status status="PASS" starttime="20200427 10:52:56.625" endtime="20200427 10:52:57.948"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5</arg>
 </arguments>
-<msg timestamp="20200423 15:13:50.623" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20200423 15:13:45.621" endtime="20200423 15:13:50.623"></status>
+<msg timestamp="20200427 10:53:02.949" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200427 10:52:57.948" endtime="20200427 10:53:02.949"></status>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=${SEND_RESUME_BUTTON}</arg>
 </arguments>
-<msg timestamp="20200423 15:13:50.631" level="INFO">Clicking element 'xpath=//android.view.View[@text='SEND US YOUR RESUME']'.</msg>
-<status status="PASS" starttime="20200423 15:13:50.624" endtime="20200423 15:13:50.981"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>30</arg>
-</arguments>
-<msg timestamp="20200423 15:14:20.984" level="INFO">Slept 30 seconds</msg>
-<status status="PASS" starttime="20200423 15:13:50.981" endtime="20200423 15:14:20.984"></status>
+<msg timestamp="20200427 10:53:02.959" level="INFO">Clicking element 'xpath=//android.view.View[@text='SEND US YOUR RESUME']'.</msg>
+<status status="PASS" starttime="20200427 10:53:02.950" endtime="20200427 10:53:03.332"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>End Careers Page</arg>
+<arg>Passed Click Send Resume Button</arg>
 </arguments>
-<status status="PASS" starttime="20200423 15:14:20.985" endtime="20200423 15:14:20.986"></status>
+<status status="PASS" starttime="20200427 10:53:03.332" endtime="20200427 10:53:03.334"></status>
 </kw>
-<status status="PASS" starttime="20200423 15:13:38.908" endtime="20200423 15:14:20.986"></status>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=${FIRST_JOB_POSITION}</arg>
+</arguments>
+<msg timestamp="20200427 10:53:03.342" level="INFO">Clicking element 'id=card-wQx0trV4'.</msg>
+<status status="PASS" starttime="20200427 10:53:03.334" endtime="20200427 10:53:06.893"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Passed Click First Job Position</arg>
+</arguments>
+<status status="PASS" starttime="20200427 10:53:06.893" endtime="20200427 10:53:06.894"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200427 10:53:11.896" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200427 10:53:06.894" endtime="20200427 10:53:11.896"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=${APPLY_BUTTON}</arg>
+</arguments>
+<msg timestamp="20200427 10:53:11.903" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[24]/android.view.View/android.view.View[1]/android.widget.Button'.</msg>
+<status status="PASS" starttime="20200427 10:53:11.896" endtime="20200427 10:53:12.244"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Passed Click Apply Button</arg>
+</arguments>
+<status status="PASS" starttime="20200427 10:53:12.245" endtime="20200427 10:53:12.246"></status>
+</kw>
+<kw name="Hide Keyboard" library="AppiumLibrary">
+<doc>Hides the software keyboard on the device. (optional) In iOS, use `key_name` to press
+a particular key, ex. `Done`. In Android, no parameters are used.</doc>
+<status status="PASS" starttime="20200427 10:53:12.247" endtime="20200427 10:53:12.439"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=${INPUT_NAME}</arg>
+<arg>${NAME}</arg>
+</arguments>
+<msg timestamp="20200427 10:53:12.457" level="INFO">Typing text 'Daniel Perez' into text field 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[24]/android.view.View/android.widget.EditText[1]'</msg>
+<status status="PASS" starttime="20200427 10:53:12.440" endtime="20200427 10:53:31.095"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Added Name ...</arg>
+</arguments>
+<status status="PASS" starttime="20200427 10:53:31.096" endtime="20200427 10:53:31.096"></status>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<doc>Sends a press of keycode to the device.</doc>
+<arguments>
+<arg>93</arg>
+</arguments>
+<status status="PASS" starttime="20200427 10:53:31.096" endtime="20200427 10:53:34.240"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=${INPUT_EMAIL}</arg>
+</arguments>
+<status status="PASS" starttime="20200427 10:53:34.241" endtime="20200427 10:53:35.819"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=${INPUT_EMAIL}</arg>
+<arg>${EMAIL_ADDRESS}</arg>
+</arguments>
+<msg timestamp="20200427 10:53:35.823" level="INFO">Typing text 'daniel.perez@sonatasmx.com' into text field 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[24]/android.view.View/android.widget.EditText[2]'</msg>
+<status status="PASS" starttime="20200427 10:53:35.819" endtime="20200427 10:53:58.126"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Added Email Address...</arg>
+</arguments>
+<status status="PASS" starttime="20200427 10:53:58.126" endtime="20200427 10:53:58.127"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200427 10:54:03.129" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200427 10:53:58.127" endtime="20200427 10:54:03.129"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=${INPUT_PHONE}</arg>
+<arg>${PHONE_NUMBER}</arg>
+</arguments>
+<msg timestamp="20200427 10:54:03.133" level="INFO">Typing text '(619) 111-1111' into text field 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[5]/android.view.View/android.widget.EditText[3]'</msg>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20200427 10:54:04.817" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200427 10:54:03.434" endtime="20200427 10:54:04.817"></status>
+</kw>
+<msg timestamp="20200427 10:54:04.819" level="FAIL">ValueError: Element locator 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[5]/android.view.View/android.widget.EditText[3]' did not match any elements.</msg>
+<status status="FAIL" starttime="20200427 10:54:03.129" endtime="20200427 10:54:04.820"></status>
+</kw>
+<status status="FAIL" starttime="20200427 10:52:51.263" endtime="20200427 10:54:04.820"></status>
 </kw>
 <kw name="Close All Applications" library="AppiumLibrary" type="teardown">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20200423 15:14:20.987" endtime="20200423 15:14:22.200"></status>
+<status status="PASS" starttime="20200427 10:54:04.821" endtime="20200427 10:54:06.509"></status>
 </kw>
-<status status="PASS" starttime="20200423 15:12:22.757" endtime="20200423 15:14:22.200" critical="yes"></status>
+<status status="FAIL" starttime="20200427 10:51:51.020" endtime="20200427 10:54:06.511" critical="yes">ValueError: Element locator 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[5]/android.view.View/android.widget.EditText[3]' did not match any elements.</status>
 </test>
 <doc>Configure Chrome Browser in Android and open all Keywords</doc>
-<status status="PASS" starttime="20200423 15:12:22.296" endtime="20200423 15:14:22.201"></status>
+<status status="FAIL" starttime="20200427 10:51:50.488" endtime="20200427 10:54:06.516"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+<stat pass="0" fail="1" id="s1" name="Test">Test</stat>
 </suite>
 </statistics>
 <errors>
